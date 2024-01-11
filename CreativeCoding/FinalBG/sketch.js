@@ -1,7 +1,9 @@
 #add gif to grid
 let gif;
 
-function preload('assets/GIF_Vizcarra.gif');
+function preload(){
+	gif = loadImage('assets/GIF_Vizcarra.gif')
+}
 
 function setup() {
   createCanvas (windowWidth,windowHeight);
