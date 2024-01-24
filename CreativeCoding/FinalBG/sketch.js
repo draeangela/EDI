@@ -1,4 +1,4 @@
-#add gif to grid
+//add gif to grid
 let gif;
 
 function preload(){
